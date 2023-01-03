@@ -1,0 +1,70 @@
+#main {
+  display: flex;
+}
+h1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 14pt
+}
+body {
+  font-family: roboto, sans-serif;
+  color: #333;
+  background: rgb(123,153,180);
+  background: -moz-linear-gradient(90deg, rgba(123,153,180,1) 0%, rgba(255,255,255,1) 0%, rgba(192,206,219,1) 0%, rgba(123,153,180,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(123,153,180,1) 0%, rgba(255,255,255,1) 0%, rgba(192,206,219,1) 0%, rgba(123,153,180,1) 100%);
+  background: linear-gradient(90deg, rgba(123,153,180,1) 0%, rgba(255,255,255,1) 0%, rgba(192,206,219,1) 0%, rgba(123,153,180,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b99b4",endColorstr="#7b99b4",GradientType=1);
+}
+hr {
+  width: 70%;
+  margin: 0 0 20px 0;
+}
+.container {
+  background: rgba(255, 255, 255, 85%);
+  box-shadow: 2px 2px 6px #999, inset 2px 2px 3px #F6F8FA, inset -2px -2px 3px #D0D4D6;
+  width: 50%;
+  padding: 2% 4% 4% 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+#copy-button, #copy-button2 {
+  display: none;
+}
+#copied, #copied2 {
+  font-size: 12px;
+  margin-top: -15px;
+  display: none;
+}
+input, textarea {
+  width: 300px;
+  height: 20px;
+  border: 1px solid #BBBFC2;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+}
+button {
+  cursor: pointer;
+  width: 100px;
+  padding: 5px 0;
+  margin: 5px 10px 20px 0;
+  border: none;
+  border-radius: 4px;
+}
+.buttons {
+  flex-direction: row;
+}
+.clay {
+  background: #A4CCF0;
+  box-shadow: 2px 2px 6px rgba(120, 120, 120, 0.5), inset 2px 2px 3px #BBD9F4, inset -2px -2px 3px #7B99B4;
+}
+#formatted, #formatted2 {
+  border: none;
+  background: transparent;
+  display: none;
+}
+.clay:hover {
+  background: #BBD9F4;
+  box-shadow: 2px 2px 6px rgba(120, 120, 120, 0.5), inset 2px 2px 3px #BBD9F4, inset -2px -2px 3px #7B99B4;
+}  
+}
