@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head></head>
+
+<body>
+  <div id="main"> 
+  <div class="container"><!-- Section 1 -->
+    <h1>Format to lowercase with first letter capitalized</h1>
+    <hr>
+    <div>
+      <input type="text" size="50" id="input" placeholder="Paste text"></input>
+      <div class="buttons">
+        <button class="clay" onclick="format()">Format</button>
+        <button class="clay" onclick="clearAll()">Clear All</button>
+      </div> 
+    </div>
+    <div>
+      <textarea id="formatted" type="text" onfocus='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea> 
+      <button class="clay" id="copy-button" onclick="copyResult()">Copy</button>
+      <p id="copied">&#9989; Copied!</p>
+    </div>
+  </div>
+
+  <div class="container"> <!-- Section 2 -->
+    <h1>Remove manual bullet points & extra spaces</h1>
+    <hr>
+    <div>
+      <textarea id="textarea2" type="text" placeholder="Paste text" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
+      <div class="buttons">
+        <button class="clay" onclick="format2()">Format</button>
+        <button class="clay" onclick="clearAll2()">Clear All</button>
+      </div> 
+      <textarea id="formatted2" type="text" onfocus='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
+      <div class="buttons">
+        <button class="clay" id="copy-button2" onclick="copyResult2()">Copy</button>
+        <span id="copied2">&#9989; Copied!</span>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html>
